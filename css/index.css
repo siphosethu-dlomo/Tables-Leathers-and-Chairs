@@ -39,7 +39,7 @@ img {
 }
 
 .title-underline {
-  background: var(--primary-500);
+  background-color: #1919e6;
   width: 7rem;
   height: 0.25rem;
   margin: 0 auto;
@@ -59,6 +59,7 @@ img {
   to {
     transform: rotate(360deg);
   }
+  
 }
 .container {
   width: 100%;
@@ -3055,6 +3056,32 @@ img {
   background-color: #e2e2e2;
 }
 
+.btn-main {
+  cursor: pointer;
+  background-color: #e2e2e2;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #326dee;
+}
+.btn-primary:hover {
+  background-color: #4a7ef0;
+}
+
 .btn-primary {
   text-decoration: none;
   cursor: pointer;
@@ -3095,6 +3122,70 @@ img {
 .btn-complement-primary:hover {
   color: #326dee;
   background-color: #fae7bf;
+}
+
+.btn-main-primary {
+  cursor: pointer;
+  background-color: #326dee;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-primary:hover {
+  background-color: #4a7ef0;
+}
+
+.btn-outlined-main-primary {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #326dee;
+}
+.btn-outlined-main-primary:hover {
+  background-color: #326dee;
+}
+
+.btn-complement-main-primary {
+  cursor: pointer;
+  background-color: #326dee;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #fae7bf;
+}
+.btn-complement-main-primary:hover {
+  color: #326dee;
+  background-color: #fae7bf;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1ac886;
+}
+.btn-secondary:hover {
+  background-color: #1ddf95;
 }
 
 .btn-secondary {
@@ -3139,6 +3230,70 @@ img {
   background-color: #f08bb1;
 }
 
+.btn-main-secondary {
+  cursor: pointer;
+  background-color: #1ac886;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-secondary:hover {
+  background-color: #1ddf95;
+}
+
+.btn-outlined-main-secondary {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #1ac886;
+}
+.btn-outlined-main-secondary:hover {
+  background-color: #1ac886;
+}
+
+.btn-complement-main-secondary {
+  cursor: pointer;
+  background-color: #1ac886;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #f08bb1;
+}
+.btn-complement-main-secondary:hover {
+  color: #1ac886;
+  background-color: #f08bb1;
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #d32752;
+}
+.btn-error:hover {
+  background-color: #da3961;
+}
+
 .btn-error {
   text-decoration: none;
   cursor: pointer;
@@ -3179,6 +3334,70 @@ img {
 .btn-complement-error:hover {
   color: #d32752;
   background-color: #a5eedc;
+}
+
+.btn-main-error {
+  cursor: pointer;
+  background-color: #d32752;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-error:hover {
+  background-color: #da3961;
+}
+
+.btn-outlined-main-error {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #d32752;
+}
+.btn-outlined-main-error:hover {
+  background-color: #d32752;
+}
+
+.btn-complement-main-error {
+  cursor: pointer;
+  background-color: #d32752;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #a5eedc;
+}
+.btn-complement-main-error:hover {
+  color: #d32752;
+  background-color: #a5eedc;
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f6c31c;
+}
+.btn-info:hover {
+  background-color: #f7c935;
 }
 
 .btn-info {
@@ -3223,6 +3442,70 @@ img {
   background-color: #afc1fc;
 }
 
+.btn-main-info {
+  cursor: pointer;
+  background-color: #f6c31c;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-info:hover {
+  background-color: #f7c935;
+}
+
+.btn-outlined-main-info {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #f6c31c;
+}
+.btn-outlined-main-info:hover {
+  background-color: #f6c31c;
+}
+
+.btn-complement-main-info {
+  cursor: pointer;
+  background-color: #f6c31c;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #afc1fc;
+}
+.btn-complement-main-info:hover {
+  color: #f6c31c;
+  background-color: #afc1fc;
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919e6;
+}
+.btn-blue:hover {
+  background-color: #3030e9;
+}
+
 .btn-blue {
   text-decoration: none;
   cursor: pointer;
@@ -3263,6 +3546,70 @@ img {
 .btn-complement-blue:hover {
   color: #1919e6;
   background-color: #f5f5a3;
+}
+
+.btn-main-blue {
+  cursor: pointer;
+  background-color: #1919e6;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-blue:hover {
+  background-color: #3030e9;
+}
+
+.btn-outlined-main-blue {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #1919e6;
+}
+.btn-outlined-main-blue:hover {
+  background-color: #1919e6;
+}
+
+.btn-complement-main-blue {
+  cursor: pointer;
+  background-color: #1919e6;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #f5f5a3;
+}
+.btn-complement-main-blue:hover {
+  color: #1919e6;
+  background-color: #f5f5a3;
+}
+
+.btn-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e61919;
+}
+.btn-red:hover {
+  background-color: #e93030;
 }
 
 .btn-red {
@@ -3307,6 +3654,70 @@ img {
   background-color: #a3f5f5;
 }
 
+.btn-main-red {
+  cursor: pointer;
+  background-color: #e61919;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-red:hover {
+  background-color: #e93030;
+}
+
+.btn-outlined-main-red {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #e61919;
+}
+.btn-outlined-main-red:hover {
+  background-color: #e61919;
+}
+
+.btn-complement-main-red {
+  cursor: pointer;
+  background-color: #e61919;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #a3f5f5;
+}
+.btn-complement-main-red:hover {
+  color: #e61919;
+  background-color: #a3f5f5;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e6e619;
+}
+.btn-yellow:hover {
+  background-color: #e9e930;
+}
+
 .btn-yellow {
   text-decoration: none;
   cursor: pointer;
@@ -3347,6 +3758,70 @@ img {
 .btn-complement-yellow:hover {
   color: #e6e619;
   background-color: #a3a3f5;
+}
+
+.btn-main-yellow {
+  cursor: pointer;
+  background-color: #e6e619;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-yellow:hover {
+  background-color: #e9e930;
+}
+
+.btn-outlined-main-yellow {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #e6e619;
+}
+.btn-outlined-main-yellow:hover {
+  background-color: #e6e619;
+}
+
+.btn-complement-main-yellow {
+  cursor: pointer;
+  background-color: #e6e619;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #a3a3f5;
+}
+.btn-complement-main-yellow:hover {
+  color: #e6e619;
+  background-color: #a3a3f5;
+}
+
+.btn-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #19e635;
+}
+.btn-green:hover {
+  background-color: #30e949;
 }
 
 .btn-green {
@@ -3391,6 +3866,70 @@ img {
   background-color: #f5a3ea;
 }
 
+.btn-main-green {
+  cursor: pointer;
+  background-color: #19e635;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-green:hover {
+  background-color: #30e949;
+}
+
+.btn-outlined-main-green {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #19e635;
+}
+.btn-outlined-main-green:hover {
+  background-color: #19e635;
+}
+
+.btn-complement-main-green {
+  cursor: pointer;
+  background-color: #19e635;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #f5a3ea;
+}
+.btn-complement-main-green:hover {
+  color: #19e635;
+  background-color: #f5a3ea;
+}
+
+.btn-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ffa600;
+}
+.btn-orange:hover {
+  background-color: #ffaf1a;
+}
+
 .btn-orange {
   text-decoration: none;
   cursor: pointer;
@@ -3431,6 +3970,70 @@ img {
 .btn-complement-orange:hover {
   color: #ffa600;
   background-color: #99bdff;
+}
+
+.btn-main-orange {
+  cursor: pointer;
+  background-color: #ffa600;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-orange:hover {
+  background-color: #ffaf1a;
+}
+
+.btn-outlined-main-orange {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #ffa600;
+}
+.btn-outlined-main-orange:hover {
+  background-color: #ffa600;
+}
+
+.btn-complement-main-orange {
+  cursor: pointer;
+  background-color: #ffa600;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #99bdff;
+}
+.btn-complement-main-orange:hover {
+  color: #ffa600;
+  background-color: #99bdff;
+}
+
+.btn-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #9900ff;
+}
+.btn-purple:hover {
+  background-color: #a31aff;
 }
 
 .btn-purple {
@@ -3475,6 +4078,70 @@ img {
   background-color: #c2ff99;
 }
 
+.btn-main-purple {
+  cursor: pointer;
+  background-color: #9900ff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-purple:hover {
+  background-color: #a31aff;
+}
+
+.btn-outlined-main-purple {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #9900ff;
+}
+.btn-outlined-main-purple:hover {
+  background-color: #9900ff;
+}
+
+.btn-complement-main-purple {
+  cursor: pointer;
+  background-color: #9900ff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #c2ff99;
+}
+.btn-complement-main-purple:hover {
+  color: #9900ff;
+  background-color: #c2ff99;
+}
+
+.btn-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #808080;
+}
+.btn-gray:hover {
+  background-color: #8d8d8d;
+}
+
 .btn-gray {
   text-decoration: none;
   cursor: pointer;
@@ -3515,6 +4182,70 @@ img {
 .btn-complement-gray:hover {
   color: #808080;
   background-color: #cdcdcd;
+}
+
+.btn-main-gray {
+  cursor: pointer;
+  background-color: #808080;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-gray:hover {
+  background-color: #8d8d8d;
+}
+
+.btn-outlined-main-gray {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #808080;
+}
+.btn-outlined-main-gray:hover {
+  background-color: #808080;
+}
+
+.btn-complement-main-gray {
+  cursor: pointer;
+  background-color: #808080;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #cdcdcd;
+}
+.btn-complement-main-gray:hover {
+  color: #808080;
+  background-color: #cdcdcd;
+}
+
+.btn-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: black;
+}
+.btn-black:hover {
+  background-color: #0d0d0d;
 }
 
 .btn-black {
@@ -3559,6 +4290,70 @@ img {
   background-color: #4d4d4d;
 }
 
+.btn-main-black {
+  cursor: pointer;
+  background-color: black;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-black:hover {
+  background-color: #0d0d0d;
+}
+
+.btn-outlined-main-black {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid black;
+}
+.btn-outlined-main-black:hover {
+  background-color: black;
+}
+
+.btn-complement-main-black {
+  cursor: pointer;
+  background-color: black;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #4d4d4d;
+}
+.btn-complement-main-black:hover {
+  color: black;
+  background-color: #4d4d4d;
+}
+
+.btn-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+}
+.btn-white:hover {
+  background-color: white;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -3597,6 +4392,57 @@ img {
   color: white;
 }
 .btn-complement-white:hover {
+  color: white;
+  background-color: white;
+}
+
+.btn-main-white {
+  cursor: pointer;
+  background-color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn-main-white:hover {
+  background-color: white;
+}
+
+.btn-outlined-main-white {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid white;
+}
+.btn-outlined-main-white:hover {
+  background-color: white;
+}
+
+.btn-complement-main-white {
+  cursor: pointer;
+  background-color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+}
+.btn-complement-main-white:hover {
   color: white;
   background-color: white;
 }

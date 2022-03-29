@@ -8,15 +8,15 @@
   background-color: $bg-color;
 }
 
-@mixin btn($bg-color: #e2e2e2) {
+@mixin btn-main($bg-color: #e2e2e2) {
   cursor: pointer;
   background-color: $bg-color;
   border: 0;
   border-radius: $border-radius-1;
   letter-spacing: $letterSpacing;
   padding: 0.375rem 0.75rem;
-  box-shadow: var(--shadow-1);
-  transition: var(--transition);
+  box-shadow: $box-shadow-1;
+  transition: $transition;
   text-transform: capitalize;
   display: inline-block;
 }
@@ -25,11 +25,22 @@
   @include btn;
 }
 
+.btn-main {
+  @include btn-main;
+}
+
 @each $key, $val in $colors {
   .btn-#{$key} {
     @include btn($val);
     &:hover {
       background-color: lighten($val, 5);
+    }
+  }
+
+  .btn-#{$key} {
+    @include btn($val);
+    &:hover {
+     background-color: lighten($val, 5);
     }
   }
 
@@ -49,4 +60,29 @@
       background-color: light-comp($val);
     }
   }
+
+  .btn-main-#{$key} {
+    @include btn-main($val);
+    &:hover {
+      background-color: lighten($val, 5);
+    }
+  }
+
+  .btn-outlined-main-#{$key} {
+    @include btn-main(#fff);
+    border: $border-thickness solid $val;
+    &:hover {
+      background-color: $val;
+    }
+  }
+
+  .btn-complement-main-#{$key} {
+    @include btn-main($val);
+    color: light-comp($val);
+    &:hover {
+      color: $val;
+      background-color: light-comp($val);
+    }
+  }
+
 }
